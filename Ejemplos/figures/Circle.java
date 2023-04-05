@@ -58,4 +58,9 @@ public class Circle
         // put your code here
         return x + y;
     }
+
+    // public static void main() {
+    //     Circle cirle1= new Circle(30, 40, 40)
+    //     cirle1.makeVisible();
+    // }
 }
