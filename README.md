@@ -5,8 +5,8 @@
 2. Tema 2 => Variables y cte en Java
 3. Tema 3 => Operadores
 4. Tema 4 => Clases en Java
-  4.1 Propiedades de las clases
-  4.2 Diagrama de clases
-  4.3 Clases predefinidas
-  4.4 Herencia
+  - Propiedades de las clases
+  - Diagrama de clases
+  - Clases predefinidas
+  - Herencia
 5. Tema 5 => Métodos y constructores 
