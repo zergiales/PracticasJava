@@ -95,59 +95,48 @@ public class Circle {
 	    }
 
 	    //Se mueve el circulo mas lento en funcion de la distancia que se pide 
-	    public void slowMoveHorizontal(int distance)
-	    {
-	        int delta;
+	    public void slowMoveHorizontal(int distance){
+	        int delta; //variable que solo es declarada dentro de la funcion
 
-	        if(distance < 0) 
-	        {
+	        if(distance < 0){
 	            delta = -1;
 	            distance = -distance;
+	        }else{
+	        	delta = 1;
 	        }
-	        else 
-	        {
-	            delta = 1;
-	        }
-
-	        for(int i = 0; i < distance; i++)
-	        {
-	            xPosition += delta;
-	            draw();
+	        
+	        for(int i = 0; i < distance; i++){
+	            xPosition += delta; //estamos haciendo que suma un valor a la posicion del eje x
+	            draw();//pinta 
 	        }
 	    }
 
-	    /**
-	     * Slowly move the circle vertically by 'distance' pixels.
-	     */
-	    public void slowMoveVertical(int distance)
-	    {
+	    //lo mismo que slowMoveHorizontal pero en vertical
+	    public void slowMoveVertical(int distance){
 	        int delta;
 
-	        if(distance < 0) 
-	        {
+	        if(distance < 0){
 	            delta = -1;
 	            distance = -distance;
-	        }
-	        else 
-	        {
+	        }else{
 	            delta = 1;
 	        }
 
-	        for(int i = 0; i < distance; i++)
-	        {
+	        for(int i = 0; i < distance; i++){
 	            yPosition += delta;
 	            draw();
 	        }
 	    }
 
-	    /**
-	     * Change the size to the new size (in pixels). Size must be >= 0.
-	     */
-	    public void changeSize(int newDiameter)
-	    {
-	        erase();
-	        diameter = newDiameter;
-	        draw();
+	    // para cambiar el tamaño del circulo 
+	    public void changeSize(int newDiameter){
+	        if(newDiameter>=0) {
+	        	erase();
+	        	diameter = newDiameter;
+	        	draw();	        	
+	        }else {
+	        	System.out.println("error");
+	        }
 	    }
 
 	    /**
