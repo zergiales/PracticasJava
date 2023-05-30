@@ -1,5 +1,6 @@
 package tema1.figuras;
 import java.awt.*; //solo nos interesa la de geom pero bueno nos vale igual
+import java.awt.geom.Ellipse2D;
 /**
  * clase circulo que podemos alterar los parametros sobre canvas
  * 
@@ -77,7 +78,10 @@ public class Circle {
 	    }
 
 	    /**
-	     * Move the circle horizontally by 'distance' pixels.
+	     * Desplaza al circulo a la distncia que queramos
+	     * 
+	     * @pre:  distance
+	     * @post: erase()
 	     */
 	    public void moveHorizontal(int distance)
 	    {
@@ -87,7 +91,8 @@ public class Circle {
 	    }
 
 	    /**
-	     * Move the circle vertically by 'distance' pixels.
+	     * se muve de forma vertical el circulo
+	     * @param distance
 	     */
 	    public void moveVertical(int distance)
 	    {
@@ -165,8 +170,8 @@ public class Circle {
 	    }
 
 	    /**
-	     * Draw the circle with current specifications on screen.
-	     */
+	     * dibuja el circulo con las especificaciones que se diga
+	     * */
 	    private void draw()
 	    {
 	        if(isVisible) {
@@ -178,11 +183,11 @@ public class Circle {
 	    }
 
 	    /**
-	     * Erase the circle on screen.
+	     * Erase == borrar el circulo de la pantalla 
 	     */
-	    private void erase()
-	    {
-	        if(isVisible) {
+	    private void erase(){
+	        // si esta visible se hace 
+	    	if(isVisible) {
 	            Canvas canvas = Canvas.getCanvas();
 	            canvas.erase(this);
 	        }
