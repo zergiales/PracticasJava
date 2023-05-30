@@ -3,20 +3,25 @@ import java.awt.*; //solo nos interesa la de geom pero bueno nos vale igual
 /**
  * clase circulo que podemos alterar los parametros sobre canvas
  * 
- * @author sergi
- *	@version 30/05/2023
+ *@author sergi
+ *@version 30/05/2023
+ *
+ *Anotaciones: 
+ *	@param diameter => es para estable el diametro del circulo
+ *	@param xPosition => posicion del circulo en el eje x
+ *	@param yPosition => posicion del circulo en el eje y
  */
 public class Circle {
-
-	 private int diameter;
-	    private int xPosition;
-	    private int yPosition;
-	    private String color;
-	    private boolean isVisible;
+		
+	 private int diameter; 
+	 private int xPosition;
+	 private int yPosition; 
+	 private String color; //color del circulo
+	 private boolean isVisible; //para cambiar la visibilidad
 	    
-	    /**
-	     * Create a new circle at default position with default color.
-	     */
+	 
+	 // contructor de un circulo con unos parametros por defecto.
+	  
 	    public Circle()
 	    {
 	        diameter = 68;
@@ -26,7 +31,8 @@ public class Circle {
 	    }
 
 	    /**
-	     * Make this circle visible. If it was already visible, do nothing.
+	     * Hace que el circulo este visible
+	     * --> si ya esta visible de queda igual 
 	     */
 	    public void makeVisible()
 	    {
@@ -34,34 +40,29 @@ public class Circle {
 	        draw();
 	    }
 	    
-	    /**
-	     * Make this circle invisible. If it was already invisible, do nothing.
-	     */
+	  /**
+	   * Hace el circulo invisible
+	   * --> si esta visible lo hace invisible 
+	   */
 	    public void makeInvisible()
 	    {
 	        erase();
 	        isVisible = false;
 	    }
 	    
-	    /**
-	     * Move the circle a few pixels to the right.
-	     */
+	    //se mueve el circulo la der [20 px]
 	    public void moveRight()
 	    {
-	        moveHorizontal(20);
+	        moveHorizontal(20);//se puede pedir al usuario con scanner que lo cambie si quiere
 	    }
 
-	    /**
-	     * Move the circle a few pixels to the left.
-	     */
+	   //se mueve el ciruclo a la izq
 	    public void moveLeft()
 	    {
 	        moveHorizontal(-20);
 	    }
 
-	    /**
-	     * Move the circle a few pixels up.
-	     */
+	    // se mueve el circulo arriba 
 	    public void moveUp()
 	    {
 	        moveVertical(-20);
