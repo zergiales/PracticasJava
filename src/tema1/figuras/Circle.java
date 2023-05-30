@@ -52,58 +52,49 @@ public class Circle {
 	    }
 	    
 	    //se mueve el circulo la der [20 px]
-	    public void moveRight()
-	    {
-	        moveHorizontal(20);//se puede pedir al usuario con scanner que lo cambie si quiere
+	    public void moveRight(){
+	    	moveHorizontal(20);//se puede pedir al usuario con scanner que lo cambie si quiere
 	    }
 
 	   //se mueve el ciruclo a la izq
-	    public void moveLeft()
-	    {
+	    public void moveLeft(){
 	        moveHorizontal(-20);
 	    }
 
 	    // se mueve el circulo arriba 
-	    public void moveUp()
-	    {
+	    public void moveUp(){
 	        moveVertical(-20);
 	    }
 
 	    /**
 	     * Move the circle a few pixels down.
 	     */
-	    public void moveDown()
-	    {
+	    public void moveDown(){
 	        moveVertical(20);
 	    }
 
 	    /**
 	     * Desplaza al circulo a la distncia que queramos
-	     * 
 	     * @pre:  distance
 	     * @post: erase()
 	     */
-	    public void moveHorizontal(int distance)
-	    {
+	    public void moveHorizontal(int distance){
 	        erase();
 	        xPosition += distance;
 	        draw();
 	    }
 
 	    /**
-	     * se muve de forma vertical el circulo
+	     * se mueve de forma vertical el circulo
 	     * @param distance
 	     */
-	    public void moveVertical(int distance)
-	    {
+	    public void moveVertical(int distance){
 	        erase();
 	        yPosition += distance;
 	        draw();
 	    }
 
-	    /**
-	     * Slowly move the circle horizontally by 'distance' pixels.
-	     */
+	    //Se mueve el circulo mas lento en funcion de la distancia que se pide 
 	    public void slowMoveHorizontal(int distance)
 	    {
 	        int delta;
