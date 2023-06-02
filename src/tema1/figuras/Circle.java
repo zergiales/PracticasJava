@@ -134,8 +134,6 @@ public class Circle {
 	        	erase();
 	        	diameter = newDiameter;
 	        	draw();	        	
-	        }else {
-	        	System.out.println("error");
 	        }
 	    }
 

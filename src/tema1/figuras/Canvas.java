@@ -9,18 +9,15 @@ import java.util.List;
  * This is a modification of the general purpose Canvas, specially made for
  * the BlueJ "shapes" example. 
  *
- * @author: Bruce Quig
- * @author: Michael Kölling (mik)
- *
- * @version 2016.02.29
+ * @author: Sergio
+ * @version 30/05/2023
  */
-public class Canvas
-{
-    // Note: The implementation of this class (specifically the handling of
-    // shape identity and colors) is slightly more complex than necessary. This
-    // is done on purpose to keep the interface and instance fields of the
-    // shape objects in this project clean and simple for educational purposes.
-
+public class Canvas{
+	/**
+	 * nota: la implementacion de esta clase (especificamente la parte en la
+	 * que se le da forma y color)
+	 */
+	
     private static Canvas canvasSingleton;
 
     /**

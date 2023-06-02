@@ -1,5 +1,7 @@
 package tema1;
 
+import java.util.ArrayList;
+
 public class Main {
 
 
@@ -18,6 +20,13 @@ public class Main {
 	        System.out.println("Valor de b: " + miVariable.getB()+" byte");
 	        System.out.println("Valor de s: " + miVariable.getS()+" short");
 	        System.out.println("-------------");
+	        
+	        ArrayList <String> a = new ArrayList<> (5);
+	        for (int i = 0; i <=5; i++) {
+				a.add("prueba");
+				System.out.println(a.toString());
+			}
+	        System.out.println("esto va");
 	    }
 	
 
