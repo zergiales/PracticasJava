@@ -44,6 +44,14 @@ public class EjemploEqual {
 		System.out.println("prueba de cond if: ");
 		e.prueba();
 		
+		System.out.println("");
+		//para ver si va el metodo split()
+		String frase = "Esta es una frase de ejemplo";
+		String[] palabras = frase.split(" ");
+		for (String palabra : palabras) {
+			System.out.println(palabra);
+		}
+		
 	}
 
 }
