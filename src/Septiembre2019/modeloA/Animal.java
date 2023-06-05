@@ -9,5 +9,5 @@ public abstract class Animal {
 	public static void act (List<Animal> newAnimals, int animals) {
 		
 	}; 
-	abstract public static void act (List<Animal> newAnimals, String animals); 
+	public static void act (List<Animal> newAnimals, String animals){}; 
 }
