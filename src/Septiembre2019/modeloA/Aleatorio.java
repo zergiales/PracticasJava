@@ -15,7 +15,7 @@ public class Aleatorio {
 		Aleatorio a = new Aleatorio();
 		Random randomGenerator; 
 		randomGenerator = new Random(0); 
- 		char index = (char) randomGenerator.nextInt(255); 
+ 		char index = (char) randomGenerator.nextInt(0); 
 		System.out.println(index); 
 		System.out.println("	 int[] hoursCounts1 = new int[24]; \r\n"
 				+ ""+ a.hoursCounts1);
