@@ -81,4 +81,11 @@ public interface Interfaz{
     metodoAbstracto(); //metodo abstracto y publico
 }
 ```
+----
+# CLASES
+- Una clase abstracta y una interfaz se parecen pero no son lo mismo.Una clase abstracta puede ser hija de una sola clase (abstract o no) mientras que una interfaz puede ser jija de varias interfaces de una misma vez. Una clase abstracta puede tener metodos que sean abstractos o que no lo sean , mientras que las interfaces pueden definir métodos abstractos y por defecto.
 
+### clase abstracta => metodos abstractos o no.No hay instancia 
+ * clase extends
+### interfaz => metodos abstractos y por defecto
+ * interfaces extends
