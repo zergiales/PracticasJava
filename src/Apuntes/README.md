@@ -91,3 +91,7 @@ public interface Interfaz{
  * clase extends
 ### interfaz => metodos abstractos y por defecto
  * interfaces extends
+
+ **En java la herencia múltiple no está permitida !!**
+ 
+- Una clase abstracta no puede instancias un objeto , pero si servir como tipo variable ```java ClaseAbs variable = new Subsclase(); ```
