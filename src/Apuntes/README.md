@@ -70,7 +70,8 @@ public class Main{
 
 - Imaginemos que queremos implementar una lista, pero queremos haverlo de forma que se dedique el menor tiempo posivle al acceder y al realizar operaciones en las listas.
 
-- ¿Implementamos un arraylist o un linkedList? Son clases que implementan la interfaz List, por lo que m para realizar las pruebas de medición del tiempo, podemos eclarar la lista como ```java List lista= new ArrayList<Elemento>(); ```` y luego cambiar ArrayList por linkedList.
+- ¿Implementamos un arraylist o un linkedList? Son clases que implementan la interfaz List, por lo que m para realizar las pruebas de medición del tiempo, podemos eclarar la lista como 
+```java List lista= new ArrayList<Elemento>(); ``` y luego cambiar ArrayList por linkedList.
 ------
 
 ## Construccion de una interfaz
