@@ -35,6 +35,15 @@ public class EjemploEqual {
 			break;
 		}
 	}
+
+	//pasar de String a int
+	
+	public int convertirCadena(String cadena) {
+		int numero = Integer.parseInt(cadena);
+		System.out.println("cadena convertida : "+numero);
+		return numero;
+	}
+
 	public static void main(String[] args) {
 		
 		System.out.println("diferencia entre equal() y ==");
@@ -43,7 +52,7 @@ public class EjemploEqual {
 		System.out.println(e.comprobarCSigno("hola"));
 		System.out.println("prueba de cond if: ");
 		e.prueba();
-		
+		System.out.println("------------------------------------");
 		System.out.println("");
 		//para ver si va el metodo split()
 		String frase = "Esta es una frase de ejemplo";
@@ -52,6 +61,9 @@ public class EjemploEqual {
 			System.out.println(palabra);
 		}
 		
+		System.out.println("------------------------------------");
+		System.out.println("convertir cadena:");
+		e.convertirCadena("12345");
 	}
 
 }
