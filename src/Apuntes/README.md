@@ -89,6 +89,7 @@ public interface Interfaz{
 
 ### clase abstracta => metodos abstractos o no.No hay instancia 
  * clase extends
+
 ### interfaz => metodos abstractos y por defecto
  * interfaces extends
 
