@@ -36,7 +36,8 @@ int numero = num;
 - Se puede realizar herencia múltiple con ayuda de las interfaces, no solo de la clase padre (una clase puede implementar varias interfaces)
 
 - Una interfaz define un tipo igual que una clase 
-````java 
+
+```java 
 Intefaz animal;
 // animal no puede ser un objeto propiamente de intefaz, pero si de los subtipos (clases que implementan la interfaz)
 
