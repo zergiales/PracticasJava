@@ -1,4 +1,4 @@
-package Junio2k22.modeloA;
+package Examenes.Junio2k22.modeloA;
 
 public class Comprobador {
 	

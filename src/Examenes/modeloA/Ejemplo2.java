@@ -1,4 +1,4 @@
-package Septiembre2019.modeloA;
+package Examenes.modeloA;
 import java.io.*;
 
 public class Ejemplo2 {

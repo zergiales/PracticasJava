@@ -1,4 +1,4 @@
-package Septiembre2019.modeloA;
+package Examenes.modeloA;
 
 //public class Ejemplo { 
 //    static int num1 = 10; 
