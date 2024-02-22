@@ -1,5 +1,5 @@
 # Programación orientada a objetos con Java
->  En el directorio [src/apuntes](src/Apuntes/README.md) ,podemos encontrar apuntes teoricos/practicos que nos pueden ser utilies para aplicar codig de una mejor forma a nuestro codigo.
+> En el directorio [src/apuntes :open_file_folder: ](src/Apuntes/README.md) ,podemos encontrar apuntes teoricos/practicos que nos pueden ser utilies para aplicar codig de una mejor forma a nuestro codigo.
 
 1. Tema 1 => Tipos primitivos
 2. Tema 2 => Variables y cte en Java
