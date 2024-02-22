@@ -1,3 +1,5 @@
+# APUNTES
+```java <NombreClase> <Argumento>``` es un comando que inicia el programa de esa clase que contiene el main
 # Tipos envolventes
 - Cuando modificamos un objeto String, lo que realmente estamos haciendo es crear 
 uno de nuevo con la modificacion ya hecha y no puede ser modificado como tal
