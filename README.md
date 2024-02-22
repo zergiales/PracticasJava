@@ -1,6 +1,5 @@
 # Programación orientada a objetos con Java
->  tenemos varias carpetas donde vamos a ir explicando las cosas más importantes de java 
-> En la carpeta src tenemos una un README.md donde tenemos un mini resumen de todo lo que debemos conocer sobre Java y la poo
+>  En el directorio [src/apuntes](src/Apuntes/README.md) ,podemos encontrar apuntes teoricos/practicos que nos pueden ser utilies para aplicar codig de una mejor forma a nuestro codigo.
 
 1. Tema 1 => Tipos primitivos
 2. Tema 2 => Variables y cte en Java
