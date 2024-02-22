@@ -1,6 +1,6 @@
 # Programación orientada a objetos con Java
 >  tenemos varias carpetas donde vamos a ir explicando las cosas más importantes de java 
-> En el word de Conceptos básicos de la programación
+> En la carpeta src tenemos una un README.md donde tenemos un mini resumen de todo lo que debemos conocer sobre Java y la poo
 
 1. Tema 1 => Tipos primitivos
 2. Tema 2 => Variables y cte en Java
