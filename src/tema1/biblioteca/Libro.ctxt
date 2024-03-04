@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Libro
+comment0.text=\r\n\ una\ clase\ senciala\ de\ libro\ \r\n\ \r\n\ @author\ Sergio\ Sanchex\ \r\n\ @version\ 1.0\r\n
+comment1.params=libroAutor\ libroTitulo
+comment1.target=Libro(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ tipo\ Libro\r\n
+comment2.params=
+comment2.target=Libro()
+comment2.text=\r\n\ constructor\ de\ objetos\ de\ tipo\ Libro\ \r\n\ \ -\ ESTO\ NO\ HACE\ NADA,\ NO\ DEJA\ NADA\ DEFINIDO\r\n
+comment3.params=
+comment3.target=void\ impirmirTitulo()
+comment3.text=\r\n\ Con\ el\ mismo\ simbolo\ puedo\ hacer\ diferentes\ tareas\ ,\ concepto\ de\ polimorfismo\r\n\ \ Metodo\ para\ imprimir\ el\ titulo\ del\ libro\ \r\n
+comment4.params=
+comment4.target=void\ imprimirAutor()
+comment5.params=
+comment5.target=java.lang.String\ getAutor()
+comment6.params=autor
+comment6.target=void\ setAutor(java.lang.String)
+numComments=7

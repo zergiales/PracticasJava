@@ -16,3 +16,7 @@
 	13. Valores de retorno
 	14. Objetos como parámetros
 	15. Resumen [de conceptos]
+-------
+
+# Introduccion 
+> La programación orientada a objetos es un tipo de programacion que desciene del paradigma de programación imperativa.
