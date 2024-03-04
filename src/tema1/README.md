@@ -36,4 +36,4 @@
 >Las clases se representan en UML en diagramas de clase mediante una caja dividida en tre áreas en la que se especifican el _nombre_ 
 de la clase y sus _miembros_.
 
-![diagrama de clases png]("src\tema1\Assets\img\Diagrama de clase.png")
+![diagrama de clases png](`src\tema1\Assets\img\Diagrama de clase.png`)
