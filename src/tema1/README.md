@@ -19,4 +19,13 @@
 -------
 
 # Introduccion 
-> La programación orientada a objetos es un tipo de programacion que desciene del paradigma de programación imperativa.
+> La programación orientada a objetos es un tipo de programacion que desciende del paradigma de programación imperativa.
+> Origenes en el lenguaj de programación Simula 67
+
+## Clase
+- Es el elemento básico de programación enun paradigma orientado a objetos.
+- En ella se describe:
+	* Un posible conjunto de datos [CAMPOS, PROPIEDADES o AMBOS, dependiendo del lenguaje de programación empleado].
+	* Un cojunto de operaciones a realizar sobre ellos (métodos),constructores y destructores.
+
+Nota: todos estos elementos son conocidos como "MIEMBROS"
