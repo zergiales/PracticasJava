@@ -27,7 +27,7 @@
 	* Un posible conjunto de datos [CAMPOS, PROPIEDADES o AMBOS, dependiendo del lenguaje de programación empleado].
 	* Un cojunto de operaciones a realizar sobre ellos (métodos),constructores y destructores.
 
-**_Nota_**: todos estos elementos son conocidos como "MIEMBROS"
+**_Nota_**: todos estos elementos son conocidos como **miembros**
 
 - A partir de una clase se podrán instanciar tantos objetos de esta como sean necesarios.
 > Una clase es una plantilla a partir de la cual definir y crear objetos.
@@ -35,3 +35,5 @@
 ### Representacion de las clases
 >Las clases se representan en UML en diagramas de clase mediante una caja dividida en tre áreas en la que se especifican el _nombre_ 
 de la clase y sus _miembros_.
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
