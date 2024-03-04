@@ -21,7 +21,7 @@
 # Introduccion 
 > La programación orientada a objetos (_POO_) es un tipo de programacion que desciende del paradigma de programación imperativa.
 
-## Clase
+# Clase
 - Es el elemento básico de programación enun paradigma orientado a objetos.
 - En ella se describe:
 	* Un posible conjunto de datos [CAMPOS, PROPIEDADES o AMBOS, dependiendo del lenguaje de programación empleado].
@@ -35,5 +35,41 @@
 ### Representacion de las clases
 >Las clases se representan en UML en diagramas de clase mediante una caja dividida en tre áreas en la que se especifican el _nombre_ 
 de la clase y sus _miembros_.
+* *Área superior*: muestra el _nombre_ de la clase representada **(_Persona_)**.
+* *Área intermedia*: contiene los _campos_ de la clase **(_DNI_,_nombre_,_apellido1_,_apellido2_)**.
+* *Área inferior*: recoge los diferentes _métodos_ de la clase (en este caso solo tenemos el método constructor _Persona_).
 
 <img src="../tema1/Assets/img/Diagrama%20de%20clase.png" width="350" height="350">
+
+## Campo
+
+## Propiedad
+
+## Método
+
+## Constructor
+
+## Destructor 
+>Se define como aquel método encargado de destruir un ojeto y liberar los recursos que tuviese asignados.
+* una clase puede tener un nº indeterminado de destructores. (puede que no se declare ninguno).
+**Nota:** En Java no exite este método.
+
+# Objeto
+
+# Encapsulación
+
+# Abstracción
+
+# Reutilización o reusabilidad
+
+# Visibilidad
+
+# Relaciones entre clases
+
+# Asociación, composición y agregación
+### Asociación
+### Composición
+### Agregación
+# Polimorfismo
+
+
