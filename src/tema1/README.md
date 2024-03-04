@@ -36,4 +36,4 @@
 >Las clases se representan en UML en diagramas de clase mediante una caja dividida en tre áreas en la que se especifican el _nombre_ 
 de la clase y sus _miembros_.
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+![diagrama de clases png]("src\tema1\Assets\img\Diagrama de clase.png")
