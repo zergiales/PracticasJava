@@ -28,3 +28,10 @@
 	* Un cojunto de operaciones a realizar sobre ellos (métodos),constructores y destructores.
 
 **_Nota_**: todos estos elementos son conocidos como "MIEMBROS"
+
+- A partir de una clase se podrán instanciar tantos objetos de esta como sean necesarios.
+> Una clase es una plantilla a partir de la cual definir y crear objetos.
+-------
+### Representacion de las clases
+>Las clases se representan en UML en diagramas de clase mediante una caja dividida en tre áreas en la que se especifican el _nombre_ 
+de la clase y sus _miembros_.
