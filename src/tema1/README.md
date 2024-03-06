@@ -68,8 +68,8 @@ de la clase y sus _miembros_.
 ## Método
 >El método es la implementacion de un algoritmo aplicable a todas las instacias de la clase y qe puede, o no, utilizar los datos contenidos en ella.
 Un metodo tomará forma de:
-*FUNCION:*
-*Procedimiento:*
+* *FUNCION:*
+* *Procedimiento:*
 -------
 ## Constructor
 
