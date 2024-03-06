@@ -40,8 +40,8 @@ de la clase y sus _miembros_.
 * *Área inferior*: recoge los diferentes _métodos_ de la clase (en este caso solo tenemos el método constructor _Persona_).
 
 <img src="../tema1/Assets/img/Diagrama%20de%20clase.png" width="450" height="450">
--------
 
+-------
 ## Campo
 >Se denomina campo a un elemento que se comporta como una variable propia de cada instancia de una clase y que define un atributo de un objeto.
 
@@ -53,9 +53,24 @@ de la clase y sus _miembros_.
 * La diferencia es que un campo dispone de un área de almacenamiento directamente accesible, la propiedad no tiene asociada una reserva de espacio de memoria para su almacenamiento. 
 
 **NOTA:** en realidad permite acceder a un area de almacenamiento a través del campo definido previamente o a través de un método creado para tal efecto.
+
+```java
+//GETTERS Y SETTERS 
+    
+ public String getTitulo() {
+  return titulo;
+ }
+ public void setTitulo(String titulo) {
+  this.titulo = titulo;
+ }
+```
+-------
 ## Método
->
-* 
+>El método es la implementacion de un algoritmo aplicable a todas las instacias de la clase y qe puede, o no, utilizar los datos contenidos en ella.
+Un metodo tomará forma de:
+*FUNCION:*
+*Procedimiento:*
+-------
 ## Constructor
 
 ## Destructor 
