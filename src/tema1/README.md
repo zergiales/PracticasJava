@@ -39,14 +39,22 @@ de la clase y sus _miembros_.
 * *Área intermedia*: contiene los _campos_ de la clase **(_DNI_,_nombre_,_apellido1_,_apellido2_)**.
 * *Área inferior*: recoge los diferentes _métodos_ de la clase (en este caso solo tenemos el método constructor _Persona_).
 
-<img src="../tema1/Assets/img/Diagrama%20de%20clase.png" width="350" height="350">
+<img src="../tema1/Assets/img/Diagrama%20de%20clase.png" width="450" height="350">
 
 ## Campo
+>Se denomina campo a un elemento que se comporta como una variable propia de cada instancia de una clase y que define un atributo de un objeto.
+
+- Podemos almacenar datos, y sus valores pueden ser inicializados, modificados y leídos directamente sin ningun tipo de acción adicional.
 
 ## Propiedad
+>Una propiedad al igual que un campo, define un atributo de un objeto.
 
+* La diferencia es que un campo dispone de un área de almacenamiento directamente accesible, la propiedad no tiene asociada una reserva de espacio de memoria para su almacenamiento. 
+
+**NOTA:** en realidad permite acceder a un area de almacenamiento a través del campo definido previamente o a través de un método creado para tal efecto.
 ## Método
-
+>
+* 
 ## Constructor
 
 ## Destructor 
@@ -55,6 +63,11 @@ de la clase y sus _miembros_.
 **Nota:** En Java no exite este método.
 
 # Objeto
+>Un objeto es una instancia de una clase determinada.
+>Y una instancia es una plantilla donde definimos y creamos un objeto.
+
+* Un objeto es el resultado de crear en tiempo de ejecución un conjunto de datos. que se almacenan en memoria y que tiene una estructura.como la que se describe en su clase. 
+
 
 # Encapsulación
 
