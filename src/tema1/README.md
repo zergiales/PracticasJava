@@ -186,7 +186,7 @@ public class LanzadorEtapa1 {
 
 ---
 
-# Abstracción [DIVIDE Y VENCERÁS]
+# Abstracción [DIVIDE Y VENCERÁS :crossed_swords: | :white_check_mark:]
 >
 >La abstracción es un mecanismo de reducción de la complejidad que minimiza la información de los objetos a representar unicamente a los aspectos más relevantes.
 
