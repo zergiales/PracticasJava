@@ -1,4 +1,4 @@
-
+package tema1.Opera;
 public class Tenor extends Cantante{
 	/**
 	 * depende de como usemos el static o no sale fa la o fa fa
