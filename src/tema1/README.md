@@ -129,12 +129,16 @@
   **Nota:** En Java no exiten los métodos destructores.
 
 # Objeto
-
-> Un objeto es una instancia de una clase determinada.
 >
+> Un objeto es una instancia de una clase determinada.
+>[!NOTE]
 > Y una instancia es una plantilla donde definimos y creamos un objeto.
 
-- Un objeto es el resultado de crear en tiempo de ejecución un conjunto de datos. que se almacenan en memoria y que tiene una estructura.como la que se describe en su clase.
+- Un objeto es el resultado de crear en tiempo de ejecución un conjunto de datos que se almacenan en memoria y que tiene una estructura.como la que se describe en su clase.
+
+>[!TIP]
+>Los objetos pueden ser **simples** o **compuestos**. Un objeto **simple**  está formado por datos primitivos (caracter,digito,un booleano...), mientras que un objeto compuesto está formado por datos primitivos y por otros objetos pertenecientes a otreas clases
+
 
 ```java
 public class LanzadorEtapa1 {
