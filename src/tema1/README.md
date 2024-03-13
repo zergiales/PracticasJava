@@ -91,17 +91,6 @@ Un metodo tomará forma de:
 
 **Nota:** en Java los métodos se implementan como funciones.
 
-```java
-    //metodo particular de la clase, denominado contructor
-    public Pelicula(){
-
-    }
-    //constructor con parametros
-    public Pelicula(String titulo){
-        this.titulo =titulo;
-    }
-```
-
 --------
 
 ## Constructor
@@ -115,6 +104,17 @@ Un metodo tomará forma de:
 ### Construcor parametrizado
 >
 >Es un constructor con parametros,que le hemos insertado.
+
+```java
+    //metodo particular de la clase, denominado contructor
+    public Pelicula(){
+
+    }
+    //constructor con parametros
+    public Pelicula(String titulo){
+        this.titulo =titulo;
+    }
+```
 
 ## Destructor
 >
