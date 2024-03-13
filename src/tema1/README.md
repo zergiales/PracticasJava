@@ -102,7 +102,7 @@
 - Para cada clase pueden declararse varios métodos constructores, aunque puede darse el caso de que no se declare ninguno.
 
 > [!CAUTION] 
-> :point_right: *El hecho de que no se declare ningún método constructor no implica que no exista :eyes:*
+> :point_right: El hecho de que no se declare ningún método constructor no implica que no exista :eyes: .
 
 **por defecto, todas las clases disponen de un método constructor, que si se invoca, incializará los campos de dichaclase a los valores por defecto.**
 
