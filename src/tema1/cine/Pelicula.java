@@ -10,10 +10,6 @@ public class Pelicula {
     private TGenero genero;//como hemos elegido los tres estado cte con el enum
 
     //metodo particular de la clase , denominado contructor
-    
-    /**
-     * 
-     */
     public Pelicula(){
 
     }
@@ -61,4 +57,13 @@ public class Pelicula {
 	public void setGenero(TGenero genero) {
 		this.genero = genero;
 	}
+	
+	//metodo para motrar una pelicula
+	public String mostrarPelicula(){
+		String mostrarPelicula="Titulo: "+titulo+"\n"+"Año: "+anyo
+		+"\n"+"Director: "+ director+"\n"+"Actores: "+actores+"\n"+"Sinopsis: "
+		+sinopsis+"\n"+"Genero: "+genero;
+		return mostrarPelicula;
+	}
+	
 }
