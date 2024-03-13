@@ -179,10 +179,10 @@ public class LanzadorEtapa1 {
 
 - Debido a la restricción de los accesos de los campos (atributos), accedemos a ellos mediante métodos observadores *GET* y los modificamos de forma segura con métodos *SET*.
 
-### 2 TIPOS DE ENCAPSULACION**
+### 2 TIPOS DE ENCAPSULACION
 
-  + **_Encapsulamiento alto:_** el cual disminuye acoplamiento(uso `private` en las `variables`).
-  + **_Encapsulamiento bajo:_** el cual aumenta el acoplamiento (:no_entry: No se usa `private` en las `variables` , solo `public`)
+  + **_Encapsulamiento alto:_** el cual disminuye acoplamiento(uso `private` en las _variables_).
+  + **_Encapsulamiento bajo:_** el cual aumenta el acoplamiento ( :no_entry: No se usa `private` en las _variables_ , solo `public`)
 
 # Abstracción
 
