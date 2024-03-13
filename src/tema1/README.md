@@ -79,7 +79,7 @@ de la clase y sus _miembros_.
  }
 ```
 
--------
+--
 
 ## Método
 >
@@ -87,22 +87,46 @@ de la clase y sus _miembros_.
 Un metodo tomará forma de:
 
 - **_FUNCION:_** si al ser invocado el algoritmo contenido en ella ejecuta una serie de instrucciones y finalmente retorna un valor.
-- **_Procedimiento:_**
+- **_Procedimiento:_**si al ser invocado el algoritmo contenido en él realiza una serie e accionesbasadas generalmente en un conjuntio de parametros o argumentos. A diferencia de las funciones, un procedimiento no retorna ningún valor
 
--------
+**Nota:** en Java los métodos se implementan como funciones.
+
+```java
+    //metodo particular de la clase, denominado contructor
+    public Pelicula(){
+
+    }
+    //constructor con parametros
+    public Pelicula(String titulo){
+        this.titulo =titulo;
+    }
+```
+
+--
 
 ## Constructor
+>
+>Un constructor es un tipo especial de método perteneciente a una clase concreta y que se utiliza para instanciar objetos de esta.
+
+- Para cada clase pueden declararse varios métodos constructores, aunque puede darse el caso de que no se declare ninguno. 
+  --> EL HECHO DE QUE NO SE DECLARE NINGÚN MÉTODO CONSTRUCTOR NO IMPLICA QUE NO EXISTA;
+  **por defecto, todas las clases disponen de un método constructor, que si se invoca, incializará los campos de dichaclase a los valores por defecto.**
+
+### Construcor parametrizado
+>
+>Es un constructor con parametros,que le hemos insertado.
 
 ## Destructor
 >
 >Se define como aquel método encargado de destruir un ojeto y liberar los recursos que tuviese asignados.
 
 - una clase puede tener un nº indeterminado de destructores. (puede que no se declare ninguno).
-**Nota:** En Java no exite este método.
+**Nota:** En Java no exiten los métodos destructores.
 
 # Objeto
 >
 >Un objeto es una instancia de una clase determinada.
+>
 >Y una instancia es una plantilla donde definimos y creamos un objeto.
 
 - Un objeto es el resultado de crear en tiempo de ejecución un conjunto de datos. que se almacenan en memoria y que tiene una estructura.como la que se describe en su clase.
@@ -111,7 +135,7 @@ Un metodo tomará forma de:
 
 # Abstracción
 >
-> ignorar/prescndir de los detalles de las partes. Para centrarse en un concepto situado en un novel más alto
+> Ignorar/prescndir de los detalles de las partes. Para centrarse en un concepto situado en un novel más alto
 
 # Modularidad
 >
