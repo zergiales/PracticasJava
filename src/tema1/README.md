@@ -206,10 +206,11 @@ public class LanzadorEtapa1 {
 # Reutilización o reusabilidad
 
 >[!NOTE]
-> A mayor utilización => menor cantidad de líenas de código => mayor facilidad de generación de código =>menos posibilidad de cometer errores y menor dificultad de mantenimiento...
+> A mayor utilización **=>** menor cantidad de líenas de código **=>** mayor facilidad de generación de código **=>** menos posibilidad de cometer errores y menor dificultad de mantenimiento...
 ---
 
 # Visibilidad
+
 
 ---
 

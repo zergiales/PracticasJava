@@ -35,6 +35,13 @@ public class Libro
 		return titulo;
 	}
 
+    /**
+     * *** Explicacion de lo que hace el this. ***
+     *  this. hace referencia al constructor del método actual,
+     *  no puede ser invocado en constructores para ahorrar código repetido entre ellos.
+     *  Debe mencionarse al principio de la sección del código.
+     * 
+     */
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
