@@ -48,7 +48,7 @@ de la clase y sus _miembros_.
 - _Área intermedia_: contiene los _campos_ de la clase **(_DNI_,_nombre_,_apellido1_,_apellido2_)**.
 - _Área inferior_: recoge los diferentes _métodos_ de la clase (en este caso solo tenemos el método constructor _Persona_).
 
-<img src="../tema1/Assets/img/Diagrama%20de%20clase.png" width="450" height="450">
+<img src="../tema1/Assets/img/Diagrama%20de%20clase.png" width="400" height="400">
 
 -------
 
@@ -87,7 +87,7 @@ de la clase y sus _miembros_.
 Un metodo tomará forma de:
 
 - **_FUNCION:_** si al ser invocado el algoritmo contenido en ella ejecuta una serie de instrucciones y finalmente retorna un valor.
-- **_Procedimiento:_**si al ser invocado el algoritmo contenido en él realiza una serie e accionesbasadas generalmente en un conjuntio de parametros o argumentos. A diferencia de las funciones, un procedimiento no retorna ningún valor
+- **_Procedimiento:_** si al ser invocado el algoritmo contenido en él realiza una serie e accionesbasadas generalmente en un conjuntio de parametros o argumentos. A diferencia de las funciones, un procedimiento no retorna ningún valor.
 
 **Nota:** en Java los métodos se implementan como funciones.
 
@@ -98,7 +98,9 @@ Un metodo tomará forma de:
 >Un constructor es un tipo especial de método perteneciente a una clase concreta y que se utiliza para instanciar objetos de esta.
 
 - Para cada clase pueden declararse varios métodos constructores, aunque puede darse el caso de que no se declare ninguno. 
-  --> EL HECHO DE QUE NO SE DECLARE NINGÚN MÉTODO CONSTRUCTOR NO IMPLICA QUE NO EXISTA;
+
+>[!CAUTION]
+>EL HECHO DE QUE NO SE DECLARE NINGÚN MÉTODO CONSTRUCTOR NO IMPLICA QUE NO EXISTA;
   **por defecto, todas las clases disponen de un método constructor, que si se invoca, incializará los campos de dichaclase a los valores por defecto.**
 
 ### Construcor parametrizado
