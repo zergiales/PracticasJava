@@ -3,9 +3,9 @@
 
 > En el directorio [src/apuntes :open_file_folder:](src/Apuntes/README.md) ,podemos encontrar apuntes teoricos/practicos que nos pueden ser utilies para aplicar codig de una mejor forma a nuestro codigo.
 
-1. [Tema 1 :open_file_folder:](src/Apuntes/tema1)
-2. [Tema 2 :open_file_folder:](src/Apuntes/tema2)
-3. [Tema 3 :open_file_folder:](src/Apuntes/tema3)
+1. [Tema 1 :open_file_folder:](src/Apuntes/tema1/)
+2. [Tema 2 :open_file_folder:](src/Apuntes/tema2/)
+3. [Tema 3 :open_file_folder:](src/Apuntes/tema3/)
 4. Tema 4 => Clases en Java
     - Propiedades de las clases
     - Diagrama de clases
