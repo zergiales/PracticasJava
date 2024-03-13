@@ -130,15 +130,12 @@
 
 # Objeto
 >
-> Un objeto es una instancia de una clase determinada.
-
->[!NOTE]
-> Y una instancia es una plantilla donde definimos y creamos un objeto.
+> Un objeto es una instancia de una clase determinada. Y una instancia es una plantilla donde definimos y creamos un objeto.
 
 - Un objeto es el resultado de crear en tiempo de ejecución un conjunto de datos que se almacenan en memoria y que tiene una estructura.como la que se describe en su clase.
 
 >[!TIP]
->Los objetos pueden ser **simples** o **compuestos**. Un objeto **simple**  está formado por datos primitivos (caracter,digito,un booleano...), mientras que un objeto compuesto está formado por datos primitivos y por otros objetos pertenecientes a otreas clases
+>Los objetos pueden ser **simples** o **compuestos**. Un objeto **simple**  está formado por datos primitivos (caracter,digito,un booleano...), mientras que un objeto **compuesto** está formado por datos primitivos y por otros objetos pertenecientes a otreas clases
 
 
 ```java
@@ -169,6 +166,9 @@ public class LanzadorEtapa1 {
  }
 }
 ```
+
+> [!CAUTION]
+> :point_right: El hecho de que dos onjetos tengan los mismos datosno significa que sean el mismo objeto.Cada uno tiene **reservado su espacio único en memoria** y es único e independiente :eyes: .
 
 # Encapsulación
 
