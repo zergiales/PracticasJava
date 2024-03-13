@@ -101,7 +101,8 @@ Un metodo tomará forma de:
 
 >[!CAUTION]
 >EL HECHO DE QUE NO SE DECLARE NINGÚN MÉTODO CONSTRUCTOR NO IMPLICA QUE NO EXISTA;
-  **por defecto, todas las clases disponen de un método constructor, que si se invoca, incializará los campos de dichaclase a los valores por defecto.**
+  
+**por defecto, todas las clases disponen de un método constructor, que si se invoca, incializará los campos de dichaclase a los valores por defecto.**
 
 ### Construcor parametrizado
 >
