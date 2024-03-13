@@ -22,7 +22,7 @@
 -----------
 
 # Introduccion
->
+
 > La programación orientada a objetos (_POO_) es un tipo de programacion que desciende del paradigma de programación imperativa.
 
 # Clase
@@ -86,7 +86,7 @@ de la clase y sus _miembros_.
 >El método es la implementacion de un algoritmo aplicable a todas las instacias de la clase y qe puede, o no, utilizar los datos contenidos en ella.
 Un metodo tomará forma de:
 
-- **_FUNCION:_**
+- **_FUNCION:_** si al ser invocado el algoritmo contenido en ella ejecuta una serie de instrucciones y finalmente retorna un valor.
 - **_Procedimiento:_**
 
 -------
@@ -110,6 +110,12 @@ Un metodo tomará forma de:
 # Encapsulación
 
 # Abstracción
+>
+> ignorar/prescndir de los detalles de las partes. Para centrarse en un concepto situado en un novel más alto
+
+# Modularidad
+>
+> proceso de dividir un todo en partes bien definidas que pueden ser construidas y examinadas separadamente.
 
 # Reutilización o reusabilidad
 
