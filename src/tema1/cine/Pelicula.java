@@ -66,4 +66,6 @@ public class Pelicula {
 		return mostrarPelicula;
 	}
 	
+	//creamos 
+	
 }
