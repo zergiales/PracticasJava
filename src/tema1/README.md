@@ -171,6 +171,17 @@ public class LanzadorEtapa1 {
 > :point_right: El hecho de que dos onjetos tengan los mismos datosno significa que sean el mismo objeto.Cada uno tiene **reservado su espacio único en memoria** y es único e independiente :eyes: .
 
 # Encapsulación
+>
+>Se define encapsulación como al agrupamiento de los datos y las operaciones relacionadas con ellos en un mismo elemento.
+>En este caso ,la clase ofrece este nivel de encapsulación, permitiendo el ocultamiento de la información.
+
+- La encapsulación entonces hace referencia a la limitación de acceso de los elementos de una clase (campos y métodos) de manera que no puedan ser modificados desde fuera incorrectamente.
+
+- Debido a la restricción de los accesos de los campos (atributos), accedemos a ellos mediante métodos observadores *GET* y los modificamos de forma segura con métodos *SET*.
+
+**2 TIPOS DE ENCAPSULACION**
+  **_Encapsulamiento alto:_** el cual disminuye acoplamiento(uso `private` en las `variables`).
+  **_Encapsulamiento bajo:_** el cual aumenta el acoplamiento (:no_entry: No se usa `private` en las `variables` , solo `public`)
 
 # Abstracción
 
