@@ -1,6 +1,9 @@
+package tema1.biblioteca;
+
 
 /**
- * una clase senciala de libro 
+ * una clase sencilla que mantiene informacion sobre un libro.
+ * Puede formar parte de una biblioteca
  * 
  * @author Sergio Sanchex 
  * @version 1.0
@@ -16,29 +19,39 @@ public class Libro
      */
     public Libro(String libroAutor, String libroTitulo)
     {
-        // initialise instance variables
+        //declaramos variables y se inicializan a los parametros insertados
         autor = libroAutor;
         titulo  = libroTitulo;
     }
     
     /**
      * constructor de objetos de tipo Libro 
-     *  - ESTO NO HACE NADA, NO DEJA NADA DEFINIDO
+     *  - deja los atributos en valores por defecto
      */
     public Libro(){
     }
+    //metodo modificadores get y set
+    public String getTitulo() {
+		return titulo;
+	}
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
     
     //METODOS
     /**
-     * Con el mismo simbolo puedo hacer diferentes tareas , concepto de polimorfismo
-     *  Metodo para imprimir el titulo del libro 
+     * Con el mismo simbolo puedo hacer diferentes tareas.
+     * [concepto de polimorfismo]
+     *  **Metodo para imprimir el titulo del libro** 
      */
     public void impirmirTitulo(){
-        System.out.println("El titulo del libro es: "+titulo);
+        System.out.println("El titulo del libro es: "+getTitulo());
     }
     
-    public void imprimirAutor(){
-        System.out.println("El autor del libro es: "+autor);
+
+	public void imprimirAutor(){
+        System.out.println("El autor del libro es: "+getAutor());
     }
     
     public String getAutor() {

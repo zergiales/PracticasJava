@@ -102,7 +102,7 @@
 - Para cada clase pueden declararse varios métodos constructores, aunque puede darse el caso de que no se declare ninguno.
 
 > [!CAUTION]
-> EL HECHO DE QUE NO SE DECLARE NINGÚN MÉTODO CONSTRUCTOR NO IMPLICA QUE NO EXISTA;
+> :point_right: *EL HECHO DE QUE NO SE DECLARE NINGÚN MÉTODO CONSTRUCTOR NO IMPLICA QUE NO EXISTA*
 
 **por defecto, todas las clases disponen de un método constructor, que si se invoca, incializará los campos de dichaclase a los valores por defecto.**
 
