@@ -79,7 +79,7 @@ de la clase y sus _miembros_.
  }
 ```
 
---
+-------
 
 ## Método
 >
@@ -102,7 +102,7 @@ Un metodo tomará forma de:
     }
 ```
 
---
+--------
 
 ## Constructor
 >
