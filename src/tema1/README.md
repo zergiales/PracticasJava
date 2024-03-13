@@ -184,26 +184,48 @@ public class LanzadorEtapa1 {
   + **_Encapsulamiento alto:_** el cual disminuye acoplamiento(uso `private` en las _variables_).
   + **_Encapsulamiento bajo:_** el cual aumenta el acoplamiento ( :no_entry: No se usa `private` en las _variables_ , solo `public`)
 
-# Abstracción
+---
 
-> Ignorar/prescndir de los detalles de las partes. Para centrarse en un concepto situado en un novel más alto
+# Abstracción [DIVIDE Y VENCERÁS]
+>
+>La abstracción es un mecanismo de reducción de la complejidad que minimiza la información de los objetos a representar unicamente a los aspectos más relevantes.
+
+- **Descomponer el problema en partes** y empezar resolviendolo ignorando los pequeños detalles y **centrándose en lo que nos importa.**
+
+---
 
 # Modularidad
 
 > proceso de dividir un todo en partes bien definidas que pueden ser construidas y examinadas separadamente.
 
+- La idea es que estas partes en la que se devide el programa,          interactúen entre sí.
+- Deben tener una función clara y única.
+
+---
+
 # Reutilización o reusabilidad
+
+>[!NOTE]
+> A mayor utilización => menor cantidad de líenas de código => mayor facilidad de generación de código =>menos posibilidad de cometer errores y menor dificultad de mantenimiento...
+---
 
 # Visibilidad
 
+---
+
 # Relaciones entre clases
 
+---
+
 # Asociación, composición y agregación
+
 
 ### Asociación
 
 ### Composición
 
 ### Agregación
+
+---
 
 # Polimorfismo
