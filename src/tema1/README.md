@@ -290,6 +290,6 @@ El polimorfirmo es la propiedad de los objetos que les permite adoptar diferente
 
 >[!TIP]
 > + La POO permite enfocar los problemas a resolver de una forma mucho más intuitiva de lo que lo hacen otros paradigmas.
->*
->
->
+> + En la POO los datos (campos, propiedades o ambos) y el código que los utiliza (métodos, constructores y destructores) están mezclados en un elemento denominado clase.
+> + Las clases determinan la estructura que tendrán los objetos instanciados a partir de las mismas.
+> + La POO se basa en: encapsulación, abstacción, reutilización, visibilidad, herencia y polimorfismo.
