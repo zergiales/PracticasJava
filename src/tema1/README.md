@@ -238,7 +238,7 @@ _El modelado orientado a objetos permite reutilizar de forma facil el código qu
 >[!NOTE]
 >Cuando la clase B "hereda" de la clase A, todos los miembros de la clase A son transferidos a la clase B, a excepción de constructores y destructores.La clase podrá añadir miembros propios de la nueva clase (campos, métodos y propiedades) o sobreescribir los miembros heredados.
 
-<img src="../tema1/Assets/img/Ejemplo de herencia.png" width="400" height="400">
+<img src="../tema1/Assets/img/Ejemplo de herencia.png" width="600" height="600">
 
 -La herencia múltiple en Java no es posible, solo en **C++ o Effiel** , ya que implica que para una misma clase puede haber más de una clase padre desde la cual derivar al mismo tiempo.
 
@@ -252,24 +252,24 @@ _El modelado orientado a objetos permite reutilizar de forma facil el código qu
 
 Es un tipo de relación entre los objetos de una o varias clases que interactúan entre sí. Cada uno de los onjetos puede existir por si mismoy sin depender del otro.
 
-<img src="../tema1/Assets/img/asoc.png" width="200" height="200">
+<img src="../tema1/Assets/img/asoc.png">
 
 ### Agregación
 
 Representa una asociación opcional, de manera que los componentes pueden existir por sí mismos e incluso formar parte de otras relaciones de composición con otros objetos.
 
-<img src="../tema1/Assets/img/Agr.png.png" width="200" height="200">
+<img src="../tema1/Assets/img/Agr.png.png">
 
 ### Composición
 
 Representa una asociación obligatoria.Los componentes son totalmente dependientes del copuesto y no tiene sentido su existencia en ausencia de este
 
-<img src="../tema1/Assets/img/comp.png" width="200" height="200">
+<img src="../tema1/Assets/img/comp.png">
 
 ---
 >[!NOTE]
-> :eyes: herencia obligatoria => COMPOSICIÓN
-> :eyes: herencia opcional  => AGREGACIÓN
-> :eyes: herencia normal de tu a tu => ASOCIACIÓN
+> :green_book:  herencia obligatoria => COMPOSICIÓN
+> :closed_book:  herencia opcional  => AGREGACIÓN
+> :open_book:  herencia normal de tu a tu => ASOCIACIÓN
 --- 
 # Polimorfismo
