@@ -238,7 +238,7 @@ _El modelado orientado a objetos permite reutilizar de forma facil el código qu
 >[!NOTE]
 >Cuando la clase B "hereda" de la clase A, todos los miembros de la clase A son transferidos a la clase B, a excepción de constructores y destructores.La clase podrá añadir miembros propios de la nueva clase (campos, métodos y propiedades) o sobreescribir los miembros heredados.
 
-<img src="../tema1/Assets/img/Ejemplo de herencia.png" width="600" height="600">
+<img src="../tema1/Assets/img/Ejemplo de herencia.png">
 
 -La herencia múltiple en Java no es posible, solo en **C++ o Effiel** , ya que implica que para una misma clase puede haber más de una clase padre desde la cual derivar al mismo tiempo.
 
