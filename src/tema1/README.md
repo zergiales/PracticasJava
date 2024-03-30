@@ -22,11 +22,11 @@
 
 ---
 
-# Introduccion
+## Introduccion
 
 > La programación orientada a objetos (_POO_) es un tipo de programacion que desciende del paradigma de programación imperativa.
 
-# Clase
+## Clase
 
 - Es el elemento básico de programación enun paradigma orientado a objetos.
 - En ella se describe:
@@ -128,7 +128,7 @@
 - una clase puede tener un nº indeterminado de destructores. (puede que no se declare ninguno).
   **Nota:** En Java no exiten los métodos destructores.
 
-# Objeto
+## Objeto
 >
 > Un objeto es una instancia de una clase determinada. Y una instancia es una plantilla donde definimos y creamos un objeto.
 
@@ -136,7 +136,6 @@
 
 >[!TIP]
 >Los objetos pueden ser **simples** o **compuestos**. Un objeto **simple**  está formado por datos primitivos (caracter,digito,un booleano...), mientras que un objeto **compuesto** está formado por datos primitivos y por otros objetos pertenecientes a otreas clases
-
 
 ```java
 public class LanzadorEtapa1 {
@@ -170,7 +169,7 @@ public class LanzadorEtapa1 {
 > [!CAUTION]
 > :point_right: El hecho de que dos onjetos tengan los mismos datosno significa que sean el mismo objeto.Cada uno tiene **reservado su espacio único en memoria** y es único e independiente :eyes: .
 
-# Encapsulación
+## Encapsulación
 >
 >Se define encapsulación como al agrupamiento de los datos y las operaciones relacionadas con ellos en un mismo elemento.
 >En este caso ,la clase ofrece este nivel de encapsulación, permitiendo el ocultamiento de la información.
@@ -179,14 +178,14 @@ public class LanzadorEtapa1 {
 
 - Debido a la restricción de los accesos de los campos (atributos), accedemos a ellos mediante métodos observadores *GET* y los modificamos de forma segura con métodos *SET*.
 
-### 2 TIPOS DE ENCAPSULACION
+### 2.TIPOS DE ENCAPSULACION
 
-  + **_Encapsulamiento alto:_** el cual disminuye acoplamiento(uso `private` en las _variables_).
-  + **_Encapsulamiento bajo:_** el cual aumenta el acoplamiento ( :no_entry: No se usa `private` en las _variables_ , solo `public`)
+   **+_Encapsulamiento alto:_** el cual disminuye acoplamiento(uso `private` en las _variables_).
+   **+_Encapsulamiento bajo:_** el cual aumenta el acoplamiento ( :no_entry: No se usa `private` en las _variables_ , solo `public`).
 
 ---
 
-# Abstracción [DIVIDE Y VENCERÁS :crossed_swords: | :white_check_mark:]
+## Abstracción [DIVIDE Y VENCERÁS :crossed_swords: | :white_check_mark:]
 >
 >La abstracción es un mecanismo de reducción de la complejidad que minimiza la información de los objetos a representar unicamente a los aspectos más relevantes.
 
@@ -194,8 +193,8 @@ public class LanzadorEtapa1 {
 
 ---
 
-# Modularidad
-
+## Modularidad
+>
 > proceso de dividir un todo en partes bien definidas que pueden ser construidas y examinadas separadamente.
 
 - La idea es que estas partes en la que se devide el programa,          interactúen entre sí.
@@ -203,30 +202,74 @@ public class LanzadorEtapa1 {
 
 ---
 
-# Reutilización o reusabilidad
-
+## Reutilización o reusabilidad
+>
 >[!NOTE]
 > A mayor utilización **=>** menor cantidad de líenas de código **=>** mayor facilidad de generación de código **=>** menos posibilidad de cometer errores y menor dificultad de mantenimiento...
+>_todo esto se consigue mediante el empleo de técnicas de herencia y composición de objetos._
+
+_El modelado orientado a objetos permite reutilizar de forma facil el código que ya se ha escrito anteriormente sin la necesidad de duplicarlo._
+
 ---
 
-# Visibilidad
+## Visibilidad
+>
+>[!IMPORTANT]
+> Est nuevo concepto establece la forma en la que los miembros de una clase serán accedidos desde otros puntos del programa. Toma vital importancia no solo a la hora de implementar los algoritmos, sino tambien a la hora de crear relaciones de herencia entre diferentes clases.
 
+  Existen **3** niveles de visibilidad:
+  
+  _+ Privada "-":_ los miembros declarados con visibilidad privada solo serán visibles desde la misma clase en la cual se han declarado
+  _+ Publica "+"_ los miembros declarados con visibilidad  pública desde cualquier lugar del programa.
+  _+ Protegida "#"_ los miembros declrados con visibilidad protegida solo serán visibles desde las clases que hereden de ella.
 
 ---
 
 # Relaciones entre clases
 
+## Herencia
+
+>
+>La herencia es una propiedad exclusiva de las clases que permite la declaración de nuevas clases a partir de otras declaradas previamente.
+
+- La clase desde la que se hereda, se llama **CLASE PADRE / SUPERCLASE**.
+- La clase que hereda, se llama **CLASE HIJA / SUBCLASE**.
+
+>[!NOTE]
+>Cuando la clase B "hereda" de la clase A, todos los miembros de la clase A son transferidos a la clase B, a excepción de constructores y destructores.La clase podrá añadir miembros propios de la nueva clase (campos, métodos y propiedades) o sobreescribir los miembros heredados.
+
+<img src="../tema1/Assets/img/Ejemplo de herencia.png" width="400" height="400">
+
+-La herencia múltiple en Java no es posible, solo en **C++ o Effiel** , ya que implica que para una misma clase puede haber más de una clase padre desde la cual derivar al mismo tiempo.
+
 ---
 
-# Asociación, composición y agregación
-
+## Asociación, composición y agregación 
+>
+> :eyes: Conexiones semánticas entre los elementos de un modelo.
 
 ### Asociación
 
-### Composición
+Es un tipo de relación entre los objetos de una o varias clases que interactúan entre sí. Cada uno de los onjetos puede existir por si mismoy sin depender del otro.
+
+<img src="../tema1/Assets/img/asoc.png" width="200" height="200">
 
 ### Agregación
 
----
+Representa una asociación opcional, de manera que los componentes pueden existir por sí mismos e incluso formar parte de otras relaciones de composición con otros objetos.
 
+<img src="../tema1/Assets/img/Agr.png.png" width="200" height="200">
+
+### Composición
+
+Representa una asociación obligatoria.Los componentes son totalmente dependientes del copuesto y no tiene sentido su existencia en ausencia de este
+
+<img src="../tema1/Assets/img/comp.png" width="200" height="200">
+
+---
+>[!NOTE]
+> :eyes: herencia obligatoria => COMPOSICIÓN
+> :eyes: herencia opcional  => AGREGACIÓN
+> :eyes: herencia normal de tu a tu => ASOCIACIÓN
+--- 
 # Polimorfismo
