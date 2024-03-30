@@ -1,6 +1,6 @@
  
 
-
+ 
 /**
  * una clase sencilla que mantiene informacion sobre un libro.
  * Puede formar parte de una biblioteca
@@ -37,9 +37,9 @@ public class Libro
 
     /**
      * *** Explicacion de lo que hace el this. ***
-     *  this. hace referencia al constructor del método actual,
-     *  no puede ser invocado en constructores para ahorrar código repetido entre ellos.
-     *  Debe mencionarse al principio de la sección del código.
+     *  this. hace referencia al constructor del mï¿½todo actual,
+     *  no puede ser invocado en constructores para ahorrar cï¿½digo repetido entre ellos.
+     *  Debe mencionarse al principio de la secciï¿½n del cï¿½digo.
      * 
      */
 	public void setTitulo(String titulo) {

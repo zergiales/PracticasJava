@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Description\ \=>\ creamos\ la\ clase\ Student\ para\ instanciar\ un\ objeto\ de\ la\ clase\ Student.\r\n\ Tener\ en\ cuenta\ que\ no\ solo\ se\ no\ sva\ a\ pedir\ el\ nombre\ de\ la\ instancia\ sino\ algunos\r\n\ parametros.\r\n\ Los\ parametros\ se\ tienen\ que\ rellenar\ antes\ de\ hacer\ click\ en\ OK\r\n\ ***PARAMETROS\ DE\ TIPO\ String\ --->\ se\ tienen\ que\ escribir\ entre\ dobles\ comillas\r\n\ \r\n\ @author\ Sergio\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Student()
+comment2.params=nombre\ apellido
+comment2.target=Student(java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ como\ podemos\ observar\ devuelve\ un\ resultado\ en\ nuestro\ caso\ \r\n\ nos\ devuelve\ un\ resultad\ de\ tipo\ String.\r\n\ Esto\ lo\ poedemos\ sber\ gracias\ a\ que\ vemos\ ne\ la\ cabecera\ que\ el\ retorno\ es\ String.\r\n
+comment4.params=replacementName
+comment4.target=void\ changeName(java.lang.String)
+numComments=5

@@ -1,4 +1,4 @@
-package tema1;
+package tema1.pruebaVariable;
 
 public class Variables {
 	// atributos 
