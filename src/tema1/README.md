@@ -258,7 +258,7 @@ Es un tipo de relación entre los objetos de una o varias clases que interactúa
 
 Representa una asociación opcional, de manera que los componentes pueden existir por sí mismos e incluso formar parte de otras relaciones de composición con otros objetos.
 
-<img src="../tema1/Assets/img/Agr.png.png">
+<img src="../tema1/Assets/img/Agr.png">
 
 ### Composición
 
@@ -275,3 +275,15 @@ Representa una asociación obligatoria.Los componentes son totalmente dependient
 --- 
 
 # Polimorfismo
+
+El polimorfirmo es la propiedad de los objetos que les permite adoptar diferentes formas en tiempo de ejecucción asi como que un objeto de la clase base.
++Junto con la herencia, establece uno de los pilares de la POO.
+
+---
+
+>[!IMPORTANT]
+> +En la programación orientada a objetos, los datos y los métodos que hacen uso de estos son declarados dentro de la misma clase.
+> +La programación orientada a objetos es más adecuada para abordar proyectos de gran tamaño.
+> +Una clase es un molde o plantilla que define, en fase de desarrollo, el aspecto (visibilidad), la composición (campos) y el comportamiento (propiedades y métodos) de los elementos que serán creados a partir de ella.
+> +Los elementos que serán creados en tiempo de ejecución a partir de la definición de la clase son los objetos.
+>>Cada clase puede definir varios métodos contructores, que serán empleados para llevar a cabo la instaciación de objetos (creación) a excepción de las clases abstractas, que son empleados con otros fines (polimorfismo, declaración de clases a base a partir de las cuales realizar herencia).
