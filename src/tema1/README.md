@@ -240,7 +240,7 @@ _El modelado orientado a objetos permite reutilizar de forma facil el código qu
 
 <img src="../tema1/Assets/img/Ejemplo de herencia.png">
 
--La herencia múltiple en Java no es posible, solo en **C++ o Effiel** , ya que implica que para una misma clase puede haber más de una clase padre desde la cual derivar al mismo tiempo.
++ La herencia múltiple en Java no es posible, solo en **C++ o Effiel** , ya que implica que para una misma clase puede haber más de una clase padre desde la cual derivar al mismo tiempo.
 
 ---
 
@@ -268,8 +268,10 @@ Representa una asociación obligatoria.Los componentes son totalmente dependient
 
 ---
 >[!NOTE]
-> :green_book:  herencia obligatoria => COMPOSICIÓN
-> :closed_book:  herencia opcional  => AGREGACIÓN
-> :open_book:  herencia normal de tu a tu => ASOCIACIÓN
+> :green_book:  herencia obligatoria => **COMPOSICIÓN** 
+>>:closed_book:  herencia opcional  => **AGREGACIÓN**
+>> :open_book:  herencia normal de tu a tu => **ASOCIACIÓN**1
+
 --- 
+
 # Polimorfismo
