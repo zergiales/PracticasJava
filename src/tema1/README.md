@@ -277,7 +277,7 @@ Representa una asociación obligatoria.Los componentes son totalmente dependient
 # Polimorfismo
 
 El polimorfirmo es la propiedad de los objetos que les permite adoptar diferentes formas en tiempo de ejecucción asi como que un objeto de la clase base.
-+Junto con la herencia, establece uno de los pilares de la POO.
++ Junto con la herencia, establece uno de los pilares de la POO.
 
 ---
 
