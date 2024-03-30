@@ -270,7 +270,7 @@ Representa una asociación obligatoria.Los componentes son totalmente dependient
 >[!NOTE]
 > :green_book:  herencia obligatoria => **COMPOSICIÓN** 
 >>:closed_book:  herencia opcional  => **AGREGACIÓN**
->> :open_book:  herencia normal de tu a tu => **ASOCIACIÓN**1
+>>> :open_book:  herencia normal de tu a tu => **ASOCIACIÓN**1
 
 --- 
 
