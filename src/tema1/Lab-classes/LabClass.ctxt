@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=LabClass
+comment0.text=\r\n\ Clase\ LabClass\ para\ crear\ un\ objeto,\ Como\ indica\ la\ asignatura,\ es\ necesario\ indicar\r\n\ el\ numero\ maximo\ de\ estudiantes\ en\ dicha\ clase\ (TIPO\ ENTERO)\r\n\ \r\n\ @author\ sergio\r\n\ @version\ 1.0\r\n
+comment1.params=maxNumberOfStudents
+comment1.target=LabClass(int)
+comment2.params=newStudent
+comment2.target=void\ enrollStudent(Student)
+comment3.params=
+comment3.target=int\ numberOfStudents()
+comment4.params=
+comment4.target=void\ printList()
+numComments=5

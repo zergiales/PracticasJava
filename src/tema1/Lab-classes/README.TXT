@@ -8,5 +8,5 @@ PROJECT TITLE: Ejemplo de clase 1.2
 PURPOSE OF PROJECT:hacer una clase
 VERSION or DATE: 1.0
 HOW TO START THIS PROJECT:siguiendo las pautas establecidas por el temario
-AUTHORS:
-USER INSTRUCTIONS:
+AUTHORS:sergio Sanchez
+USER INSTRUCTIONS: las recomendadas por el ejercicio

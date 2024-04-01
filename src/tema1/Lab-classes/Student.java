@@ -14,32 +14,69 @@ public class Student
     // instanciamos las variables
     private String name;
     private String surname;
+    private String ID;
+    private int credits;
 
     //constructor sin parametros
     public Student()
     {
         // inicializamos las variables instaciadas
-        name="default";
-        surname="default";
+        name = "por defecto";
+        surname = "por defecto";
+        ID = "1234567E";
+        credits = 30;
     }
 
     //constructor que le pasamos dos parametros
-    public Student(String nombre, String apellido){
+    public Student(String nombre, String apellido, String DNI, int creditos){
         name = nombre;
         surname = apellido;
+        ID = DNI;
+        credits = creditos;
     }
-    //metodos get para retornar el valor de name
+    //metodos get para retornar el valor de name 
     /**
-     * como podemos observar devuelve un resultado en nuestro caso 
-     * nos devuelve un resultad de tipo String.
-     * Esto lo poedemos sber gracias a que vemos ne la cabecera que el retorno es String.
+     * Los métodos pueden devolver información acerca de un objeto
+     * mediante un valor de retorno.
+     */
+     
+     /**
+     * Como podemos observar devuelve un resultado en nuestro caso 
+     * ,concretamente, nos devuelve un resultado de tipo String.
+     *  
+     *  --> Esto lo podemos saber gracias a que vemos en la cabecera
+     *      que el retorno es String.
      */
     public String getName(){
         return name;
     }
-    //metodo para cambiar el nombre (como un set)
+    //metodo para cambiar el nombre (como un set +-)
+    //la palabra void indica que este metodono devuelve ningún método.
+    /**
+     * Los métodos con valores de retorno nos permiten obtener información de un objeto
+     * mediante la invocación de un métodO.
+     *  
+     *  --> Esto significa que podems emplear métodos para cambiar el estado de un objeto
+     *      o para averiguar cuál es el estado.
+     */
     public void changeName(String replacementName){
      name = replacementName;
-     //la palabra void indica que este metodono devuelve ningún método.
+    }
+    //metodo get para devolver el valor de ID
+    public String getStudentID(){
+        return ID;
+    }
+    //metodo get para devolver el valor de creditos
+    public int getStudentCredits(){
+        return credits;
+    }
+    //metodo para modificar el valor de credits del student
+    public void addCredits(int addCredits){
+        credits += addCredits;
+    }
+    
+    //metodo para imprimir bonito al student
+    public void print(){
+        System.out.println(name +" "+ surname +" numero de ID: "+ ID +" numero de creditos: "+ credits);
     }
 }
