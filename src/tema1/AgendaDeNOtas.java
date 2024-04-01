@@ -22,7 +22,7 @@ public class AgendaDeNOtas {
 	 * 
 	 * - Clae contenedora generica que implementa coleccion dinamica de objetos que voy a manejar. luego tengo a mi disposicion un conjunto de metodos.
 	 * 
-	 *  array: se establece un tamaño pero ya esta definido ese tamaño (concepto matematico,vector) (lo que se reserve a priori)
+	 *  array: se establece un tamaï¿½o pero ya esta definido ese tamaï¿½o (concepto matematico,vector) (lo que se reserve a priori)
 	 */
 	
 	/**
@@ -30,8 +30,8 @@ public class AgendaDeNOtas {
 	 * 
 	 * - muchas apliaciones requieren agrupar objetos,como agendas,catalogos de libros....
 	 * - el numero de elemntos a agrupar varia segun usemos la apliacion:
-	 * 		-->adición de elemtnos
-	 * 		-->eliminación de elementos
+	 * 		-->adiciï¿½n de elemtnos
+	 * 		-->eliminaciï¿½n de elementos
 	 * 
 	 * - y hay que ser capaces de manipular los elemntos de la coleccion: consulta y modificacion de sus elementos.
 	 *
@@ -48,7 +48,7 @@ public class AgendaDeNOtas {
 	 * 
 	 * 5. NO VAMOS A IMPLEMENTAR LAS ESTRUCTURAS DE DATOS para guardar notas: USAREMOS LAS LIBRERIAS!!!!
 	 * 				LIBRERIA = PAQUETE (java.util.*)
-	 * 6.Una libreria de clases es... una coleccion de clases útiles
+	 * 6.Una libreria de clases es... una coleccion de clases ï¿½tiles
 	 * 
 	 */
 	

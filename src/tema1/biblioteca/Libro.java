@@ -1,11 +1,9 @@
- 
-
- 
+package tema1.biblioteca;
 /**
  * una clase sencilla que mantiene informacion sobre un libro.
  * Puede formar parte de una biblioteca
  * 
- * @author Sergio Sanchex 
+ * @author Sergio Sanchez
  * @version 1.0
  */
 public class Libro
