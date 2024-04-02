@@ -14,14 +14,14 @@ primero debemos saber que es una clase.Es una instacia particular de la clase.
 ## CONCEPTOS DE CLASES
 
 Se definen como entidades abstractas del mundo real aquellas que  aglutinan datos y acciones _comer(), domrir() , sentar()_ que la entidad pero en sugestion es necesaria.
-    +una misma clase puede dar lugar a varios objetos diferentes.
+    + Una misma clase puede dar lugar a varios objetos diferentes.
 
 ### VENTAJAS DE LA POO
 
-+Proximidad de los conceptos modelados respecto a objetos del mundo real
-+Facilita la reutilizacion de codigo y el mantenimiento.
++ Proximidad de los conceptos modelados respecto a objetos del mundo real
++ Facilita la reutilizacion de codigo y el mantenimiento.
 
 ### DESVENTAJAS DE LA POO
 
-+Mayor complejiad a la hora de entender el flujo de datos,ya que se pierde linealidad d ela programacion procedimental
-+Requiere de un lenguaje de modelizacion: Unifed modelin lenguage ,diagrama de clases , que modela las clase de mi problema y sus relaciones a partir del cual trabajmos y tiramos lineas de codigo.
++ Mayor complejiad a la hora de entender el flujo de datos,ya que se pierde linealidad d ela programacion procedimental
++ Requiere de un lenguaje de modelizacion: Unifed modelin lenguage ,diagrama de clases , que modela las clase de mi problema y sus relaciones a partir del cual trabajmos y tiramos lineas de codigo.
