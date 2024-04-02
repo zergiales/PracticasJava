@@ -9,7 +9,7 @@
 ## CONCEPTO DE OBJETO
 
 primero debemos saber que es una clase.Es una instacia particular de la clase.
-     +Un objeto puede dar lugar a que serian los componentes que nos serviran para modelar nuestro programa, y las clases la definiciones de dichos objetos.
+     + Un objeto puede dar lugar a que serian los componentes que nos serviran para modelar nuestro programa, y las clases la definiciones de dichos objetos.
 
 ## CONCEPTOS DE CLASES
 
