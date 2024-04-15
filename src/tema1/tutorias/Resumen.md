@@ -13,5 +13,6 @@ Los objetos almacenan los datos en campos (que tambien tienen tipos). El conjunt
 >[!IMPORTANT]
 >Los objetos se crean a partir de definiciones de clases que han sido escritas en un lenguaje de programación concreto.Buena parte de la tarea de programación en Java está relacionada con cómo escribir esas definiciones de clases.
 >> un programa Java de gran tamaño tendrá muchas clases, cada una de las cuales contará con varios métodos, que pueden llamarse unos a otros de varias formas distintas.
+
 >[!NOTE]
 >Para desarrollar programas Java, necesitamos aprender a escribir definiciones de clases, entre sus campos y métodos, y a ensamblar estas clases correctamente.

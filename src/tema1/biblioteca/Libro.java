@@ -1,4 +1,4 @@
-package tema1.biblioteca;
+ 
 /**
  * una clase sencilla que mantiene informacion sobre un libro.
  * Puede formar parte de una biblioteca
