@@ -258,6 +258,7 @@ El polimorfirmo es la propiedad de los objetos que les permite adoptar diferente
 + Junto con la herencia, establece uno de los pilares de la POO.
 
 ---
+# Resumen
 
 >[!IMPORTANT]
 > + En la programación orientada a objetos, los datos y los métodos que hacen uso de estos son declarados dentro de la misma clase.
@@ -266,8 +267,12 @@ El polimorfirmo es la propiedad de los objetos que les permite adoptar diferente
 > + Los elementos que serán creados en tiempo de ejecución a partir de la definición de la clase son los objetos.
 >>Cada clase puede definir varios métodos contructores, que serán empleados para llevar a cabo la instaciación de objetos (creación) a excepción de las clases abstractas, que son empleados con otros fines (polimorfismo, declaración de clases a base a partir de las cuales realizar herencia).
 
+
 >[!TIP]
+> + Para llevar a cabo la descripcion y el diseño de programas orientas a objetos se utiliza UML.
+> + Al igual que la **programacion estructurada**, la _programación orientada a objetos_ es un tipo de programación que desciende del paradigma de **programación imperativa.**
 > + La POO permite enfocar los problemas a resolver de una forma mucho más intuitiva de lo que lo hacen otros paradigmas.
 > + En la POO los datos (campos, propiedades o ambos) y el código que los utiliza (métodos, constructores y destructores) están mezclados en un elemento denominado clase.
 > + Las clases determinan la estructura que tendrán los objetos instanciados a partir de las mismas.
 > + La POO se basa en: encapsulación, abstacción, reutilización, visibilidad, herencia y polimorfismo.
+
