@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TicketMachine
+comment0.text=\r\n\ Maquina\ de\ tickets\ expendedora\ ejemplo\ del\ tema\ 2\ \r\n\ \r\n\ @author\ Sergio\ Sanchez\ \r\n\ @version\ 15/04/2024\r\n
+comment1.params=balance\ price\ money\ ticket
+comment1.target=TicketMachine(int,\ int,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getBalance()
+comment3.params=
+comment3.target=int\ getPrice()
+comment4.params=moneyInserted
+comment4.target=void\ insertMoney(int)
+numComments=5
